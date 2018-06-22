@@ -25,7 +25,7 @@ class nexus::params {
   $revision                      = '01'
   $type                          = 'bundle'
   $deploy_pro                    = false
-  $download_site                 = 'http://download.sonatype.com/nexus/oss'
+  $download_site                 = 'https://sonatype-download.global.ssl.fastly.net/repository/repositoryManager/3'
   $nexus_root                    = '/srv'
   $nexus_home_dir                = 'nexus'
   $nexus_work_recurse            = true
@@ -41,5 +41,5 @@ class nexus::params {
   $nexus_data_folder             = undef
   $download_folder               = '/srv'
   $manage_config                 = true
-  $md5sum                        = undef
+  $md5sum                        = '2dd6b7e7099e2f91d7d30e7e651a674d'
 }
